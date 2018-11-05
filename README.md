@@ -44,15 +44,30 @@ were resolved by an email sent out by my TA Shashank.
    by my TA `curl https://sdk.cloud.google.com | bash` was much simpler 
     
 ## A Summary of the Data Collected: Number of Attacks, Number of Malware Samples, etc.
-
-1. **Dionaea over HTTP**
-
-
-2. **Shockpot Sinkhole**
+* There were 27,250 attacks in the last 24 hours
+* The Dionaea honeypot was attacked 26,858 times
+* The Shockpot honeypot was attacked 392 timees
+* The top 5 attacked ports were
+    * 5060 (18,303 times)
+    * 8088 (1,652 times)
+    * 445 (830 times)
+    * 80 (422 times)
+    * 23 (228 times)
+* The top 5 attacker IPs were
+    * 45.3.86.213 (4,634 attacks)
+    * 37.49.231.15 (3,089 attacks)
+    * 37.49.231.156 (2,829 attacks)
+    * 37.49.231.83 (2,558 attacks)
+    * 37.49.231.150 (2,555 attacks)
+* No malware samples were able to be collected over this short time period
 
 ## Any Unresolved Questions Raised by the Data Collected
+After the completion of this lab, I had a few unresolved questions by the data that was collected. 
+1. Why was the Dionaea honeypot visited so many more times that the Shockpot honeypot?
+2. Why were there no payload captures, even after letting the honeypots run overnight?
 
 ## JSON 
+Here is the link to the `session.json` file: https://raw.githubusercontent.com/kamranrana/Honeypot/master/session.json
 
 ## Resources
 * GIFs created with LiceCap
