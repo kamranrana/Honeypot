@@ -28,7 +28,6 @@ Time spent: 15 hours spent in total
 3. Screenshot of MHN Server Attack Stats: https://imgur.com/a/jiFQd5K
 4. Screenshot of MHN Server Attacks Report - Dionaea: https://imgur.com/a/gtTWnQx
 5. Screenshot of MHN Server Attacks Report - Shockpot: https://imgur.com/a/20Zvp6S
-6. ***GIF***
 
 ## Issues Encountered 
 There were a few issues which I encountered while doing this assignment, however, most of these issues
